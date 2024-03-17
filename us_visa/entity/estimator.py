@@ -19,7 +19,7 @@ class TargetValueMapping:
 
 
 
-
+# Class will be used in Model Trainer to handle trained models
 class USvisaModel:
     def __init__(self, preprocessing_object: Pipeline, trained_model_object: object):
         """
