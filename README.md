@@ -36,11 +36,11 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 ```
 
 
-## AWS-CICD-Deployment-with-Github-Actions
-1. Login to AWS console.
-2. Create IAM user for deployment
+# AWS-CICD-Deployment-with-Github-Actions
+## 1. Login to AWS console.
+## 2. Create IAM user for deployment
 #with specific access
-
+```bash
 1. EC2 access : It is virtual machine
 
 2. ECR: Elastic Container registry to save your docker image in aws
@@ -58,15 +58,21 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
 5. Lauch your docker image in EC2
 
+
 #Policy:
 
 1. AmazonEC2ContainerRegistryFullAccess
 
 2. AmazonEC2FullAccess
-3. Create ECR repo to store/save docker image
+```
+
+## 3. Create ECR repo to store/save docker image
+```bash
 - Save the URI: 136566696263.dkr.ecr.us-east-1.amazonaws.com/mlproject
-4. Create EC2 machine (Ubuntu)
-5. Open EC2 and Install docker in EC2 Machine:
+```
+## 4. Create EC2 machine (Ubuntu)
+## 5. Open EC2 and Install docker in EC2 Machine:
+
 #optinal
 ```bash
 sudo apt-get update -y
@@ -85,11 +91,11 @@ sudo usermod -aG docker ubuntu
 newgrp docker
 ```
 
-6. Configure EC2 as self-hosted runner:
+## 6. Configure EC2 as self-hosted runner:
 ```bash
 setting>actions>runner>new self hosted runner> choose os> then run command one by one
 ```
-7. Setup github secrets:
+## 7. Setup github secrets:
 ```bash
  AWS_ACCESS_KEY_ID
  AWS_SECRET_ACCESS_KEY
