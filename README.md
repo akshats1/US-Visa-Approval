@@ -26,4 +26,11 @@ python app.py
 5. pipeline
 6. app.py
 
+## Important command for aws
+``` 
+export AWS_ACCESS_KEY_ID="<aws acess key>"
+export AWS_SECRET_ACCESS_KEY="<aws secret key>"
+
+```
+
 
