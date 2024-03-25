@@ -1,4 +1,5 @@
-# US-Visa-Approval [![Deploy Application Docker Image to EC2 instance](https://github.com/akshats1/US-Visa-Approval/actions/workflows/aws.yaml/badge.svg)](https://github.com/akshats1/US-Visa-Approval/actions/workflows/aws.yaml)
+# US-Visa-Approval 
+[![Deploy Application Docker Image to EC2 instance](https://github.com/akshats1/US-Visa-Approval/actions/workflows/aws.yaml/badge.svg)](https://github.com/akshats1/US-Visa-Approval/actions/workflows/aws.yaml)
 
 ## How to Run
 ```bash
